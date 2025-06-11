@@ -1,13 +1,14 @@
 [METADATA]
 network = "main"
+token_metadata = "https://clixprotocol.github.io/.well-known/token-meta.json"
 
 [[CURRENCIES]]
-code = "434C495800000000000000000000000000000000"  # Hex of "CLIX" with 24 zero padding
+code = "434C495800000000000000000000000000000000"  # Hex of "CLIX"
 issuer = "rNqqXuG7E774TcBoHiPKeoaRK9nBRSNnQu"
 name = "CLIX"
 desc = "Earn for engagement. The decentralized rewards token powering the future of clicks."
-icon = "https://clixprotocol.github.io/logo.png"
-image = "https://clixprotocol.github.io/logo.png"
+icon = "https://clixprotocol.github.io/.well-known/logo.png"
+image = "https://clixprotocol.github.io/.well-known/logo.png"
 url = "https://clixprotocol.github.io"
 display_decimals = 2
 

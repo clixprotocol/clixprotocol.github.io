@@ -1,66 +1,65 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CLIX Clicklets</title>
-    <meta name="description" content="Earn CLIX tokens just for engaging. Click, share, trust—get rewarded.">
-    <link rel="icon" href="https://clixprotocol.github.io/.well-known/logo.png">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #0d0d0d;
-            color: #fff;
-            margin: 0;
-            padding: 2rem;
-            text-align: center;
-        }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            background: #1a1a1a;
-            padding: 2rem;
-            border-radius: 16px;
-            box-shadow: 0 0 20px #00ffcc33;
-        }
-        h1 {
-            color: #00ffcc;
-        }
-        a.button {
-            display: inline-block;
-            padding: 1rem 2rem;
-            background-color: #00ffcc;
-            color: #000;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 8px;
-            margin-top: 1rem;
-        }
-        a.button:hover {
-            background-color: #00ccaa;
-        }
-        .qr {
-            margin: 2rem 0;
-        }
-        iframe {
-            width: 100%;
-            height: 600px;
-            border: none;
-            margin-top: 2rem;
-            border-radius: 12px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CLIX Clicklets Reward Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #0f0;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    .trust-btn {
+      background-color: #0f0;
+      color: #000;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin: 1rem 0;
+    }
+    .qr-code {
+      margin: 1rem auto;
+      max-width: 200px;
+    }
+    iframe {
+      margin-top: 2rem;
+      border: none;
+      width: 100%;
+      max-width: 640px;
+      height: 800px;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>🚀 Welcome to Clicklets</h1>
-        <p>Earn CLIX for clicks, trustlines, and shares. It's that simple.</p>
-        <p><strong>Step 1:</strong> Add CLIX trustline:</p>
-        <div class="qr">
-            <img src="https://bithomp.com/qr?data=xumm%3Adeeplink%3Atrust%3ArNqqXuG7E774TcBoHiPKeoaRK9nBRSNnQu%2F434C495800000000000000000000000000000000" width="200" alt="Trust QR">
-        </div>
-        <a class="button" href="https://xumm.app/detect/xapp:trustline?issuer=rNqqXuG7E774TcBoHiPKeoaRK9nBRSNnQu&currency=434C495800000000000000000000000000000000">Add Trustline via XUMM</a>
-        <p><strong>Step 2:</strong> Complete the form to get rewarded.</p>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfC-ClickletsFormID/viewform?embedded=true" title="Clicklets Reward Form">Loading…</iframe>
-    </div>
+  <h1>🚀 Welcome to CLIX Clicklets</h1>
+  <p>Add CLIX to your wallet and claim your first reward for supporting decentralized engagement.</p>
+
+  <!-- Trustline Button -->
+  <a class="trust-btn"
+     href="https://xumm.app/detect/xapp:trustline?issuer=rNqqXuG7E774TcBoHiPKeoaRK9nBRSNnQu&currency=CLIX"
+     target="_blank">
+    📲 Add Trustline via Xaman
+  </a>
+
+  <!-- QR Code -->
+  <div class="qr-code">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://xumm.app/detect/xapp:trustline?issuer=rNqqXuG7E774TcBoHiPKeoaRK9nBRSNnQu&currency=CLIX&size=200x200" alt="QR Code to Add Trustline" />
+  </div>
+
+  <!-- Google Form Embed -->
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf0Ynt8LV4-TP0DxcsH9DNzWaFu6ZJW1RCnP1OtP-pahEaSPg/viewform?embedded=true"
+          title="Clicklets Reward Claim Form">
+    Loading…
+  </iframe>
 </body>
 </html>

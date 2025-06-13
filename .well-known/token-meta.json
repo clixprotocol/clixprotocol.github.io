@@ -1,8 +1,9 @@
-
 {
   "name": "CLIX",
-  "description": "Earn for engagement. The decentralized rewards token powering the future of clicks.",
+  "symbol": "CLIX",
+  "domain": "clixprotocol.github.io",
   "issuer": "rNqqXuG7E774TcBoHiPKeoaRK9nBRSNnQu",
-  "token": "CLIX",
-  "icon": "https://clixprotocol.github.io/logo.png"
+  "decimals": 2,
+  "description": "Earn for engagement. The decentralized rewards token powering the future of clicks.",
+  "logo_uri": "https://clixprotocol.github.io/.well-known/logo.png"
 }

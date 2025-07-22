@@ -7,10 +7,9 @@ code = "CLIX"
 issuer = "rNqqXuG7E774TcBoHiPKeoaRK9nBRSNnQu"
 name = "CLIX"
 desc = "Earn for engagement. The decentralized rewards token powering the future of clicks."
-icon = "https://clixprotocol.github.io/.well-known/logo.png"
 image = "https://clixprotocol.github.io/.well-known/logo.png"
 url = "https://clixprotocol.github.io"
 display_decimals = 2
 
 [ACCOUNTS]
-address = rNqqXuG7E774TcBoHiPKeoaRK9nBRSNnQu = { name = "CLIX Protocol" }
+rNqqXuG7E774TcBoHiPKeoaRK9nBRSNnQu = { name = "CLIX Protocol" }

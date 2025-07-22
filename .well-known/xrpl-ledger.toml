@@ -13,4 +13,4 @@ url = "https://clixprotocol.github.io"
 display_decimals = 2
 
 [ACCOUNTS]
-address = "rNqqXuG7E774TcBoHiPKeoaRK9nBRSNnQu"
+address = rNqqXuG7E774TcBoHiPKeoaRK9nBRSNnQu = { name = "CLIX Protocol" }

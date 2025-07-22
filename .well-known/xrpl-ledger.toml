@@ -3,7 +3,7 @@ network = "main"
 token_metadata = "https://clixprotocol.github.io/.well-known/token-meta.json"
 
 [[CURRENCIES]]
-code = "434C495800000000000000000000000000000000"  # Hex of "CLIX"
+code = "CLIX"  # Hex of "CLIX"
 issuer = "rNqqXuG7E774TcBoHiPKeoaRK9nBRSNnQu"
 name = "CLIX"
 desc = "Earn for engagement. The decentralized rewards token powering the future of clicks."
